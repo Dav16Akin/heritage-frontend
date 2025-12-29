@@ -1,12 +1,12 @@
 import { ArrowRight } from "lucide-react";
 import { ButtonProps } from "./types";
 
-const CustomButton = ({ text, variant }: ButtonProps) => {
+const CustomButton = ({ text, variant, className }: ButtonProps) => {
   return (
     <div
       className={`flex items-center gap-4 justify-center p-2 ${
         variant == "blue" ? "bg-blue-700" : ""
-      }  ${variant == "white" ? "bg-white" : ""}  rounded-full w-fit`}
+      } ${className}  ${variant == "white" ? "bg-white" : ""}  rounded-full w-fit`}
     >
       <span
         className={`${variant == "blue" ? "text-white" : ""} ${

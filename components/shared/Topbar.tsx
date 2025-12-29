@@ -1,16 +1,24 @@
+"use client"
 import Link from "next/link";
-import React from "react";
 import CustomButton from "./customButton/CustomButton";
+import { Menu } from "lucide-react";
+import { useState } from "react";
+
 
 const Topbar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false)
+  const openMenu = () => {
+    setToggleMenu(!toggleMenu)
+  }
+
   return (
-    <div className="flex text-white justify-between items-center py-4 px-16">
+    <div className="flex text-white justify-between items-center py-4 lg:px-16 md:px-10 px-5">
       <div className="flex gap-20">
         <Link href="/" className="flex items-center justify-center">
           <span className="text-2xl">Consulting</span>
         </Link>
 
-        <div className="flex gap-8 items-center justify-center">
+        <div className="hidden lg:flex gap-8 items-center justify-center">
           <p>Home</p>
           <p>About</p>
           <p>Programs</p>
@@ -19,7 +27,8 @@ const Topbar = () => {
         </div>
       </div>
 
-      <CustomButton text={"Let's Connect"} variant={"blue"}/>
+      <CustomButton className="hidden lg:flex" text={"Let's Connect"} variant={"blue"}/>
+      <Menu onClick={openMenu} className="lg:hidden"/>
     </div>
   );
 };

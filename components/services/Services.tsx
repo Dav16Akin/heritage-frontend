@@ -2,13 +2,13 @@ import { Dot } from "lucide-react";
 
 const Services = () => {
   return (
-    <section className="m-16 flex justify-between gap-8">
-      <div className="flex flex-col gap-14 w-[50%]">
+    <section className="md:m-10 lg:m-16 m-5 mt-20 flex lg:flex-row flex-col justify-between gap-8">
+      <div className="flex flex-col gap-14 lg:w-[50%]">
         <div className="space-y-4">
           <span className="flex">
             <Dot /> Services
           </span>
-          <h3 className="text-6xl font-semibold">
+          <h3 className="md:text-6xl text-4xl font-semibold">
             Services Built Around Your Growth
           </h3>
           <span>
@@ -27,7 +27,7 @@ const Services = () => {
           </span>
         </div>
       </div>
-      <div className="w-[40%] bg-black"></div>
+      <div className="lg:w-[40%] h-[50vh] bg-black"></div>
     </section>
   );
 };

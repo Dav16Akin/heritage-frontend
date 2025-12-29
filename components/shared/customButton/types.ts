@@ -3,4 +3,5 @@ import { ComponentPropsWithoutRef } from "react";
 export interface ButtonProps extends ComponentPropsWithoutRef<'button'>{
     text: string;
     variant: string;
+    className?: string
 }
