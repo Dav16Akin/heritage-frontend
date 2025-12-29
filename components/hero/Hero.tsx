@@ -3,7 +3,7 @@ import Topbar from "../shared/Topbar";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col justify-between h-[98vh] bg-linear-to-b from-black via-black to-blue-700">
+    <section className="flex flex-col justify-between lg:h-[98vh] h-[85vh] bg-linear-to-b from-black via-black to-blue-700">
       <Topbar />
 
       <div className="flex justify-between items-end gap-8 lg:mx-16 md:mx-10 mx-5 my-8">
