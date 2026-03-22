@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Heritage Coaching",
-  description: "Heritage Coaching",
+  title: "Heritage Consulting",
+  description: "Heritage Consulting",
 };
 
 export default function RootLayout({

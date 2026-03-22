@@ -19,7 +19,7 @@ const Hero = () => {
           </AnimateIn>
           <AnimateIn variant="fade-up" delay={300} duration={700}>
             <p className="text-sm md:text-base text-white/80 md:whitespace-normal line-clamp-4 md:line-clamp-none">
-              Your LinkedIn profile is your digital introduction to the professional world — and a well-crafted presence can open doors to exciting career opportunities. At Heritage Coaching, we position you as a Subject Matter Expert and connect you with the decision-makers who matter most.
+              Your LinkedIn profile is your digital introduction to the professional world — and a well-crafted presence can open doors to exciting career opportunities. At Heritage Consulting, we position you as a Subject Matter Expert and connect you with the decision-makers who matter most.
             </p>
           </AnimateIn>
           <AnimateIn variant="fade-up" delay={450} duration={700}>
@@ -30,7 +30,7 @@ const Hero = () => {
           <div className="h-[400px] hidden lg:flex bg-[#9b1c1c]/10 border border-[#9b1c1c]/30 rounded-xl items-center justify-center">
             <div className="text-center text-white/40 space-y-2 p-8">
               <p className="text-5xl font-bold text-[#9b1c1c]">HC</p>
-              <p className="text-sm uppercase tracking-widest">Heritage Coaching</p>
+              <p className="text-sm uppercase tracking-widest">Heritage Consulting</p>
             </div>
           </div>
         </AnimateIn>

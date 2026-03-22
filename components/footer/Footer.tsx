@@ -20,8 +20,8 @@ const Footer = () => {
           <a href="#testimonials" className="hover:text-[#9b1c1c] transition-colors cursor-pointer text-sm text-white/70">Testimonials</a>
         </div>
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
-          <a href="#hero" className="text-xl font-bold">Heritage <span className="text-[#9b1c1c]">Coaching</span></a>
-          <p className="text-white/40 text-xs">© 2025 Heritage Coaching. All rights reserved.</p>
+          <a href="#hero" className="text-xl font-bold">Heritage <span className="text-[#9b1c1c]">Consulting</span></a>
+          <p className="text-white/40 text-xs">© 2025 Heritage Consulting. All rights reserved.</p>
         </div>
       </div>
     </section>

@@ -24,7 +24,7 @@ const Testimonial = () => {
             <AnimateIn variant="fade-right" delay={350} duration={800} className="md:w-[50%] lg:w-[40%] flex flex-col gap-8 justify-between">
               <Quote className="text-[#9b1c1c]" size={36}/>
               <p className="md:text-2xl text-[20px] text-[#0a1628] leading-relaxed">
-                &quot;Heritage Coaching completely transformed how I show up on LinkedIn. Within 3 months, I had three interview invitations from senior decision-makers in my industry — something I hadn&apos;t achieved in years of applying traditionally.&quot;
+                &quot;Heritage Consulting completely transformed how I show up on LinkedIn. Within 3 months, I had three interview invitations from senior decision-makers in my industry — something I hadn&apos;t achieved in years of applying traditionally.&quot;
               </p>
               <div className="border-l-4 border-[#9b1c1c] pl-4">
                 <p className="font-semibold text-[#0a1628]">Revion Okafor</p>

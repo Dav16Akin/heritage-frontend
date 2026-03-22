@@ -49,7 +49,7 @@ const Topbar = () => {
           <a href="#hero" className="flex items-center justify-center">
             <span className="text-xl font-bold tracking-wide">
               Heritage{" "}
-              <span className="text-[#9b1c1c]">Coaching</span>
+              <span className="text-[#9b1c1c]">Consulting</span>
             </span>
           </a>
 
